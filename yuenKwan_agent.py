@@ -160,7 +160,7 @@ class BlindDog(Agent):
     def drink(self, thing):
         print("Dog: Drank water at {}.".format( self.location))
     
-    # Req. 4
+    # Req. 4 - show action "bark" has occurred at a certain location 
     def bark(self, thing):
         print("Dog: Bark person at {}.".format(self.location))
 
@@ -177,7 +177,7 @@ class Water(Thing):
 class Tree(Thing):
     pass
 
-# Req. 2
+# Req. 2 - a new thing named Person
 class Person(Thing):
     pass
 
@@ -206,11 +206,11 @@ class Park(Environment):
                     print('{} drank {} at location: {}'
                           .format(str(agent)[1:-1], str(items[0])[1:-1], agent.location))
                     self.delete_thing(items[0]) #Delete it from the Park after.
-        # Req. 4
+        # Req. 4 - change the state of Park afer action "bark" has occurred
         elif action == "bark":
             items = self.list_things_at(agent.location, tclass=Person)
             if len(items) != 0:
-                if agent.bark(items[0]): #Have the dog drink the first item
+                if agent.bark(items[0]): #Have the dog bark the first item
                     print('{} barked {} at location: {}'
                           .format(str(agent)[1:-1], str(items[0])[1:-1], agent.location))
                     self.delete_thing(items[0]) #Delete it from the Park after.
@@ -218,8 +218,8 @@ class Park(Environment):
     def is_done(self):
         '''By default, we're done when we can't find a live agent, 
         but to prevent killing our cute dog, we will stop before itself - when there is no more food or water'''
-        # Req. 4
         # no_edibles = not any(isinstance(thing, Food) or isinstance(thing, Water) for thing in self.things)
+        # Req. 2 - add Person to environment
         no_edibles = not any(isinstance(thing, Food) or isinstance(thing, Water) or isinstance(thing, Person) for thing in self.things)
         dead_agents = not any(agent.is_alive() for agent in self.agents)
         return dead_agents or no_edibles
@@ -243,7 +243,7 @@ class BlindDog(Agent):
             return True
         return False
     
-    # Req. 4
+    # Req. 4 - add action "bark" to Blinddog agent
     def bark(self, thing):
         if isinstance(thing, Person):
             return True
@@ -257,7 +257,7 @@ def program(percepts):
             return 'eat'
         elif isinstance(p, Water):
             return 'drink'
-        # Req. 3
+        # Req. 4 - add new percept to Blinddog agent
         elif isinstance(p, Person):
             return 'bark' 
     return 'move down'   
@@ -270,16 +270,16 @@ park = Park()
 dog = BlindDog(program)
 dogfood = Food()
 water = Water()
-bone = Food() # Req. 1
-yuenKwan = Person() # Req. 3
-li = Person() # Req.3 
+bone = Food() # Req. 1 - add a new food item
+yuenKwan = Person() # Req. 3 - first instance of Person named after my first name
+li = Person() # Req.3 - second instance of Person named after my last name
 park.add_thing(dog, 1)
 park.add_thing(dogfood, 5)
 park.add_thing(water, 7)
-park.add_thing(bone, 9) # Req. 1
-park.add_thing(yuenKwan, 3) # Req. 3
-park.add_thing(li, 12) # Req. 3
-park.run(18) # Req. 5
+park.add_thing(bone, 9) # Req. 1 - add the new food item at location 9 in the park
+park.add_thing(yuenKwan, 3) # Req. 3 - set the location of first Person at location 3 in the park
+park.add_thing(li, 12) # Req. 3 - set the location of second Person at location 12 in the park
+park.run(18) # Req. 5 - run the park for 18 steps
     
     
     

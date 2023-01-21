@@ -1,20 +1,20 @@
 digraph "classes" {
 rankdir=BT
 charset="utf-8"
-"blinddog_simple_reflex.Agent" [color="black", fontcolor="black", label="{Agent|alive : bool\lbump : bool\lholding : list\llocation : NoneType\lperformance : int\lprogram : NoneType\l|can_grab(thing)\l}", shape="record", style="solid"];
-"blinddog_simple_reflex.BlindDog" [color="black", fontcolor="black", label="{BlindDog|\l|bark(thing)\ldrink(thing)\leat(thing)\l}", shape="record", style="solid"];
-"blinddog_simple_reflex.Environment" [color="black", fontcolor="black", label="{Environment|agents : list\lthings : list\l|add_thing(thing, location)\ldefault_location(thing)\ldelete_thing(thing)\lexecute_action(agent, action)\lexogenous_change()\lis_done()\llist_things_at(location, tclass)\lpercept(agent)\lrun(steps)\lsome_things_at(location, tclass)\lstep()\lthing_classes()\l}", shape="record", style="solid"];
-"blinddog_simple_reflex.Food" [color="black", fontcolor="black", label="{Food|\l|}", shape="record", style="solid"];
-"blinddog_simple_reflex.Park" [color="black", fontcolor="black", label="{Park|\l|execute_action(agent, action)\lis_done()\lpercept(agent)\l}", shape="record", style="solid"];
-"blinddog_simple_reflex.Person" [color="black", fontcolor="black", label="{Person|\l|}", shape="record", style="solid"];
-"blinddog_simple_reflex.Thing" [color="black", fontcolor="black", label="{Thing|\l|is_alive()\lshow_state()\l}", shape="record", style="solid"];
-"blinddog_simple_reflex.Tree" [color="black", fontcolor="black", label="{Tree|\l|}", shape="record", style="solid"];
-"blinddog_simple_reflex.Water" [color="black", fontcolor="black", label="{Water|\l|}", shape="record", style="solid"];
-"blinddog_simple_reflex.Agent" -> "blinddog_simple_reflex.Thing" [arrowhead="empty", arrowtail="none"];
-"blinddog_simple_reflex.BlindDog" -> "blinddog_simple_reflex.Agent" [arrowhead="empty", arrowtail="none"];
-"blinddog_simple_reflex.Food" -> "blinddog_simple_reflex.Thing" [arrowhead="empty", arrowtail="none"];
-"blinddog_simple_reflex.Park" -> "blinddog_simple_reflex.Environment" [arrowhead="empty", arrowtail="none"];
-"blinddog_simple_reflex.Person" -> "blinddog_simple_reflex.Thing" [arrowhead="empty", arrowtail="none"];
-"blinddog_simple_reflex.Tree" -> "blinddog_simple_reflex.Thing" [arrowhead="empty", arrowtail="none"];
-"blinddog_simple_reflex.Water" -> "blinddog_simple_reflex.Thing" [arrowhead="empty", arrowtail="none"];
+"yuenKwan_agent.Agent" [color="black", fontcolor="black", label="{Agent|alive : bool\lbump : bool\lholding : list\llocation : NoneType\lperformance : int\lprogram : NoneType\l|can_grab(thing)\l}", shape="record", style="solid"];
+"yuenKwan_agent.BlindDog" [color="black", fontcolor="blue", label="{BlindDog|\l|bark(thing)\ldrink(thing)\leat(thing)\l}", shape="record", style="solid"];
+"yuenKwan_agent.Environment" [color="black", fontcolor="blue", label="{Environment|agents : list\lthings : list\l|add_thing(thing, location)\ldefault_location(thing)\ldelete_thing(thing)\lexecute_action(agent, action)\lexogenous_change()\lis_done()\llist_things_at(location, tclass)\lpercept(agent)\lrun(steps)\lsome_things_at(location, tclass)\lstep()\lthing_classes()\l}", shape="record", style="solid"];
+"yuenKwan_agent.Food" [color="black", fontcolor="blue", label="{Food|\l|}", shape="record", style="solid"];
+"yuenKwan_agent.Park" [color="black", fontcolor="blue", label="{Park|\l|execute_action(agent, action)\lis_done()\lpercept(agent)\l}", shape="record", style="solid"];
+"yuenKwan_agent.Person" [color="black", fontcolor="blue", label="{Person|\l|}", shape="record", style="solid"];
+"yuenKwan_agent.Thing" [color="black", fontcolor="black", label="{Thing|\l|is_alive()\lshow_state()\l}", shape="record", style="solid"];
+"yuenKwan_agent.Tree" [color="black", fontcolor="black", label="{Tree|\l|}", shape="record", style="solid"];
+"yuenKwan_agent.Water" [color="black", fontcolor="black", label="{Water|\l|}", shape="record", style="solid"];
+"yuenKwan_agent.Agent" -> "yuenKwan_agent.Thing" [arrowhead="empty", arrowtail="none"];
+"yuenKwan_agent.BlindDog" -> "yuenKwan_agent.Agent" [arrowhead="empty", arrowtail="none"];
+"yuenKwan_agent.Food" -> "yuenKwan_agent.Thing" [arrowhead="empty", arrowtail="none"];
+"yuenKwan_agent.Park" -> "yuenKwan_agent.Environment" [arrowhead="empty", arrowtail="none"];
+"yuenKwan_agent.Person" -> "yuenKwan_agent.Thing" [arrowhead="empty", arrowtail="none"];
+"yuenKwan_agent.Tree" -> "yuenKwan_agent.Thing" [arrowhead="empty", arrowtail="none"];
+"yuenKwan_agent.Water" -> "yuenKwan_agent.Thing" [arrowhead="empty", arrowtail="none"];
 }

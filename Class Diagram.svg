@@ -1,25 +1,25 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="644pt" height="557pt" viewBox="0.00 0.00 644.2 556.6">
-<g id="graph0" class="graph" transform="translate(4,552.5999755859375) scale(1)" data-name="classes">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="644pt" height="557pt" viewBox="0.00 0.00 644.20 556.60">
+<g id="graph0" class="graph" transform="translate(44.01686761623964,481.7594334348034) scale(0.840896415253715)" data-name="classes">
 
 <polygon fill="white" stroke="none" points="-4,4 -4,-552.6 640.2,-552.6 640.2,4 -4,4"/>
-<!-- blinddog_simple_reflex.Agent -->
-<g id="node1" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Agent">
+<!-- yuenKwan_agent.Agent -->
+<g id="node1" class="node" pointer-events="visible" data-name="yuenKwan_agent.Agent">
 
 <polygon fill="none" stroke="black" points="288.3,-203.5 288.3,-361.9 421.7,-361.9 421.7,-203.5 288.3,-203.5"/>
 <text text-anchor="middle" x="355" y="-345.3" font-family="Times,serif" font-size="14.00">Agent</text>
-<polyline fill="none" stroke="rgb(0, 0, 0)" points="288.3,-337.1 421.7,-337.1"/>
+<polyline fill="none" stroke="black" points="288.3,-337.1 421.7,-337.1"/>
 <text text-anchor="start" x="296.3" y="-320.5" font-family="Times,serif" font-size="14.00">alive : bool</text>
 <text text-anchor="start" x="296.3" y="-303.7" font-family="Times,serif" font-size="14.00">bump : bool</text>
 <text text-anchor="start" x="296.3" y="-286.9" font-family="Times,serif" font-size="14.00">holding : list</text>
 <text text-anchor="start" x="296.3" y="-270.1" font-family="Times,serif" font-size="14.00">location : NoneType</text>
 <text text-anchor="start" x="296.3" y="-253.3" font-family="Times,serif" font-size="14.00">performance : int</text>
 <text text-anchor="start" x="296.3" y="-236.5" font-family="Times,serif" font-size="14.00">program : NoneType</text>
-<polyline fill="none" stroke="rgb(0, 0, 0)" points="288.3,-228.3 421.7,-228.3"/>
+<polyline fill="none" stroke="black" points="288.3,-228.3 421.7,-228.3"/>
 <text text-anchor="start" x="296.3" y="-211.7" font-family="Times,serif" font-size="14.00">can_grab(thing)</text>
 </g>
-<!-- blinddog_simple_reflex.Thing -->
-<g id="node7" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Thing">
+<!-- yuenKwan_agent.Thing -->
+<g id="node7" class="node" pointer-events="visible" data-name="yuenKwan_agent.Thing">
 
 <polygon fill="none" stroke="black" points="127.23,-457.7 127.23,-548.1 214.77,-548.1 214.77,-457.7 127.23,-457.7"/>
 <text text-anchor="middle" x="171" y="-531.5" font-family="Times,serif" font-size="14.00">Thing</text>
@@ -28,100 +28,100 @@
 <text text-anchor="start" x="135.23" y="-482.7" font-family="Times,serif" font-size="14.00">is_alive()</text>
 <text text-anchor="start" x="135.23" y="-465.9" font-family="Times,serif" font-size="14.00">show_state()</text>
 </g>
-<!-- blinddog_simple_reflex.Agent&#45;&gt;blinddog_simple_reflex.Thing -->
-<g id="edge1" class="edge" data-name="blinddog_simple_reflex.Agent-&gt;blinddog_simple_reflex.Thing">
+<!-- yuenKwan_agent.Agent&#45;&gt;yuenKwan_agent.Thing -->
+<g id="edge1" class="edge" data-name="yuenKwan_agent.Agent-&gt;yuenKwan_agent.Thing">
 
 <path fill="none" stroke="black" d="M319.36,-361.68C308.05,-382.2 294.41,-403.52 279,-421.2 263.28,-439.24 242.89,-455.74 224.07,-469.05"/>
 <polygon fill="none" stroke="black" points="222.18,-466.1 215.94,-474.66 226.16,-471.86 222.18,-466.1"/>
 </g>
-<!-- blinddog_simple_reflex.BlindDog -->
-<g id="node2" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.BlindDog">
+<!-- yuenKwan_agent.BlindDog -->
+<g id="node2" class="node" pointer-events="visible" data-name="yuenKwan_agent.BlindDog">
 
 <polygon fill="none" stroke="black" points="313.17,-0.5 313.17,-107.7 396.83,-107.7 396.83,-0.5 313.17,-0.5"/>
-<text text-anchor="middle" x="355" y="-91.1" font-family="Times,serif" font-size="14.00">BlindDog</text>
+<text text-anchor="middle" x="355" y="-91.1" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">BlindDog</text>
 <polyline fill="none" stroke="black" points="313.17,-82.9 396.83,-82.9"/>
 <polyline fill="none" stroke="black" points="313.17,-58.9 396.83,-58.9"/>
-<text text-anchor="start" x="321.17" y="-42.3" font-family="Times,serif" font-size="14.00">bark(thing)</text>
-<text text-anchor="start" x="321.17" y="-25.5" font-family="Times,serif" font-size="14.00">drink(thing)</text>
-<text text-anchor="start" x="321.17" y="-8.7" font-family="Times,serif" font-size="14.00">eat(thing)</text>
+<text text-anchor="start" x="321.17" y="-42.3" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">bark(thing)</text>
+<text text-anchor="start" x="321.17" y="-25.5" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">drink(thing)</text>
+<text text-anchor="start" x="321.17" y="-8.7" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">eat(thing)</text>
 </g>
-<!-- blinddog_simple_reflex.BlindDog&#45;&gt;blinddog_simple_reflex.Agent -->
-<g id="edge2" class="edge" data-name="blinddog_simple_reflex.BlindDog-&gt;blinddog_simple_reflex.Agent">
+<!-- yuenKwan_agent.BlindDog&#45;&gt;yuenKwan_agent.Agent -->
+<g id="edge2" class="edge" data-name="yuenKwan_agent.BlindDog-&gt;yuenKwan_agent.Agent">
 
 <path fill="none" stroke="black" d="M355,-107.66C355,-132.82 355,-163.65 355,-192.34"/>
 <polygon fill="none" stroke="black" points="351.5,-192.12 355,-202.12 358.5,-192.12 351.5,-192.12"/>
 </g>
-<!-- blinddog_simple_reflex.Environment -->
-<g id="node3" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Environment">
+<!-- yuenKwan_agent.Environment -->
+<g id="node3" class="node" pointer-events="visible" data-name="yuenKwan_agent.Environment">
 
 <polygon fill="none" stroke="black" points="439.8,-144.7 439.8,-420.7 636.2,-420.7 636.2,-144.7 439.8,-144.7"/>
-<text text-anchor="middle" x="538" y="-404.1" font-family="Times,serif" font-size="14.00">Environment</text>
+<text text-anchor="middle" x="538" y="-404.1" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">Environment</text>
 <polyline fill="none" stroke="black" points="439.8,-395.9 636.2,-395.9"/>
-<text text-anchor="start" x="447.8" y="-379.3" font-family="Times,serif" font-size="14.00">agents : list</text>
-<text text-anchor="start" x="447.8" y="-362.5" font-family="Times,serif" font-size="14.00">things : list</text>
+<text text-anchor="start" x="447.8" y="-379.3" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">agents : list</text>
+<text text-anchor="start" x="447.8" y="-362.5" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">things : list</text>
 <polyline fill="none" stroke="black" points="439.8,-354.3 636.2,-354.3"/>
-<text text-anchor="start" x="447.8" y="-337.7" font-family="Times,serif" font-size="14.00">add_thing(thing, location)</text>
-<text text-anchor="start" x="447.8" y="-320.9" font-family="Times,serif" font-size="14.00">default_location(thing)</text>
-<text text-anchor="start" x="447.8" y="-304.1" font-family="Times,serif" font-size="14.00">delete_thing(thing)</text>
-<text text-anchor="start" x="447.8" y="-287.3" font-family="Times,serif" font-size="14.00">execute_action(agent, action)</text>
-<text text-anchor="start" x="447.8" y="-270.5" font-family="Times,serif" font-size="14.00">exogenous_change()</text>
-<text text-anchor="start" x="447.8" y="-253.7" font-family="Times,serif" font-size="14.00">is_done()</text>
-<text text-anchor="start" x="447.8" y="-236.9" font-family="Times,serif" font-size="14.00">list_things_at(location, tclass)</text>
-<text text-anchor="start" x="447.8" y="-220.1" font-family="Times,serif" font-size="14.00">percept(agent)</text>
-<text text-anchor="start" x="447.8" y="-203.3" font-family="Times,serif" font-size="14.00">run(steps)</text>
-<text text-anchor="start" x="447.8" y="-186.5" font-family="Times,serif" font-size="14.00">some_things_at(location, tclass)</text>
-<text text-anchor="start" x="447.8" y="-169.7" font-family="Times,serif" font-size="14.00">step()</text>
-<text text-anchor="start" x="447.8" y="-152.9" font-family="Times,serif" font-size="14.00">thing_classes()</text>
+<text text-anchor="start" x="447.8" y="-337.7" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">add_thing(thing, location)</text>
+<text text-anchor="start" x="447.8" y="-320.9" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">default_location(thing)</text>
+<text text-anchor="start" x="447.8" y="-304.1" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">delete_thing(thing)</text>
+<text text-anchor="start" x="447.8" y="-287.3" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">execute_action(agent, action)</text>
+<text text-anchor="start" x="447.8" y="-270.5" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">exogenous_change()</text>
+<text text-anchor="start" x="447.8" y="-253.7" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">is_done()</text>
+<text text-anchor="start" x="447.8" y="-236.9" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">list_things_at(location, tclass)</text>
+<text text-anchor="start" x="447.8" y="-220.1" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">percept(agent)</text>
+<text text-anchor="start" x="447.8" y="-203.3" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">run(steps)</text>
+<text text-anchor="start" x="447.8" y="-186.5" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">some_things_at(location, tclass)</text>
+<text text-anchor="start" x="447.8" y="-169.7" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">step()</text>
+<text text-anchor="start" x="447.8" y="-152.9" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">thing_classes()</text>
 </g>
-<!-- blinddog_simple_reflex.Food -->
-<g id="node4" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Food">
+<!-- yuenKwan_agent.Food -->
+<g id="node4" class="node" pointer-events="visible" data-name="yuenKwan_agent.Food">
 
 <polygon fill="none" stroke="black" points="0,-245.9 0,-319.5 54,-319.5 54,-245.9 0,-245.9"/>
-<text text-anchor="middle" x="26.89" y="-302.9" font-family="Times,serif" font-size="14.00">Food</text>
+<text text-anchor="middle" x="26.89" y="-302.9" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">Food</text>
 <polyline fill="none" stroke="black" points="0,-294.7 53.79,-294.7"/>
 <polyline fill="none" stroke="black" points="0,-270.7 53.79,-270.7"/>
-<text text-anchor="middle" x="26.89" y="-254.1" font-family="Times,serif" font-size="14.00"> </text>
+<text text-anchor="middle" x="26.89" y="-254.1" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)"> </text>
 </g>
-<!-- blinddog_simple_reflex.Food&#45;&gt;blinddog_simple_reflex.Thing -->
-<g id="edge3" class="edge" data-name="blinddog_simple_reflex.Food-&gt;blinddog_simple_reflex.Thing">
+<!-- yuenKwan_agent.Food&#45;&gt;yuenKwan_agent.Thing -->
+<g id="edge3" class="edge" data-name="yuenKwan_agent.Food-&gt;yuenKwan_agent.Thing">
 
 <path fill="none" stroke="black" d="M29.81,-319.4C33.58,-348.85 42.4,-390.6 63,-421.2 76.93,-441.89 97.98,-459.34 117.8,-472.66"/>
 <polygon fill="none" stroke="black" points="115.83,-475.55 126.13,-478.04 119.63,-469.67 115.83,-475.55"/>
 </g>
-<!-- blinddog_simple_reflex.Park -->
-<g id="node5" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Park">
+<!-- yuenKwan_agent.Park -->
+<g id="node5" class="node" pointer-events="visible" data-name="yuenKwan_agent.Park">
 
 <polygon fill="none" stroke="black" points="447.6,-0.5 447.6,-107.7 628.4,-107.7 628.4,-0.5 447.6,-0.5"/>
-<text text-anchor="middle" x="538" y="-91.1" font-family="Times,serif" font-size="14.00">Park</text>
+<text text-anchor="middle" x="538" y="-91.1" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">Park</text>
 <polyline fill="none" stroke="black" points="447.6,-82.9 628.4,-82.9"/>
 <polyline fill="none" stroke="black" points="447.6,-58.9 628.4,-58.9"/>
-<text text-anchor="start" x="455.6" y="-42.3" font-family="Times,serif" font-size="14.00">execute_action(agent, action)</text>
-<text text-anchor="start" x="455.6" y="-25.5" font-family="Times,serif" font-size="14.00">is_done()</text>
-<text text-anchor="start" x="455.6" y="-8.7" font-family="Times,serif" font-size="14.00">percept(agent)</text>
+<text text-anchor="start" x="455.6" y="-42.3" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">execute_action(agent, action)</text>
+<text text-anchor="start" x="455.6" y="-25.5" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">is_done()</text>
+<text text-anchor="start" x="455.6" y="-8.7" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">percept(agent)</text>
 </g>
-<!-- blinddog_simple_reflex.Park&#45;&gt;blinddog_simple_reflex.Environment -->
-<g id="edge4" class="edge" data-name="blinddog_simple_reflex.Park-&gt;blinddog_simple_reflex.Environment">
+<!-- yuenKwan_agent.Park&#45;&gt;yuenKwan_agent.Environment -->
+<g id="edge4" class="edge" data-name="yuenKwan_agent.Park-&gt;yuenKwan_agent.Environment">
 
 <path fill="none" stroke="black" d="M538,-107.66C538,-115.84 538,-124.61 538,-133.73"/>
 <polygon fill="none" stroke="black" points="534.5,-133.47 538,-143.47 541.5,-133.47 534.5,-133.47"/>
 </g>
-<!-- blinddog_simple_reflex.Person -->
-<g id="node6" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Person">
+<!-- yuenKwan_agent.Person -->
+<g id="node6" class="node" pointer-events="visible" data-name="yuenKwan_agent.Person">
 
 <polygon fill="none" stroke="black" points="71.94,-245.9 71.94,-319.5 126.06,-319.5 126.06,-245.9 71.94,-245.9"/>
-<text text-anchor="middle" x="99" y="-302.9" font-family="Times,serif" font-size="14.00">Person</text>
+<text text-anchor="middle" x="99" y="-302.9" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">Person</text>
 <polyline fill="none" stroke="black" points="71.94,-294.7 126.06,-294.7"/>
 <polyline fill="none" stroke="black" points="71.94,-270.7 126.06,-270.7"/>
-<text text-anchor="middle" x="99" y="-254.1" font-family="Times,serif" font-size="14.00"> </text>
+<text text-anchor="middle" x="99" y="-254.1" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)"> </text>
 </g>
-<!-- blinddog_simple_reflex.Person&#45;&gt;blinddog_simple_reflex.Thing -->
-<g id="edge5" class="edge" data-name="blinddog_simple_reflex.Person-&gt;blinddog_simple_reflex.Thing">
+<!-- yuenKwan_agent.Person&#45;&gt;yuenKwan_agent.Thing -->
+<g id="edge5" class="edge" data-name="yuenKwan_agent.Person-&gt;yuenKwan_agent.Thing">
 
 <path fill="none" stroke="black" d="M106.61,-319.22C113.03,-347.27 123.06,-387.21 135,-421.2 138.04,-429.84 141.62,-438.85 145.32,-447.57"/>
 <polygon fill="none" stroke="black" points="142.07,-448.87 149.26,-456.64 148.49,-446.08 142.07,-448.87"/>
 </g>
-<!-- blinddog_simple_reflex.Tree -->
-<g id="node8" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Tree">
+<!-- yuenKwan_agent.Tree -->
+<g id="node8" class="node" pointer-events="visible" data-name="yuenKwan_agent.Tree">
 
 <polygon fill="none" stroke="black" points="144,-245.9 144,-319.5 198,-319.5 198,-245.9 144,-245.9"/>
 <text text-anchor="middle" x="170.82" y="-302.9" font-family="Times,serif" font-size="14.00">Tree</text>
@@ -129,14 +129,14 @@
 <polyline fill="none" stroke="black" points="144,-270.7 197.64,-270.7"/>
 <text text-anchor="middle" x="170.82" y="-254.1" font-family="Times,serif" font-size="14.00"> </text>
 </g>
-<!-- blinddog_simple_reflex.Tree&#45;&gt;blinddog_simple_reflex.Thing -->
-<g id="edge6" class="edge" data-name="blinddog_simple_reflex.Tree-&gt;blinddog_simple_reflex.Thing">
+<!-- yuenKwan_agent.Tree&#45;&gt;yuenKwan_agent.Thing -->
+<g id="edge6" class="edge" data-name="yuenKwan_agent.Tree-&gt;yuenKwan_agent.Thing">
 
 <path fill="none" stroke="black" d="M171,-319.24C171,-353.76 171,-406.65 171,-446.65"/>
 <polygon fill="none" stroke="black" points="167.5,-446.58 171,-456.58 174.5,-446.58 167.5,-446.58"/>
 </g>
-<!-- blinddog_simple_reflex.Water -->
-<g id="node9" class="node" pointer-events="visible" data-name="blinddog_simple_reflex.Water">
+<!-- yuenKwan_agent.Water -->
+<g id="node9" class="node" pointer-events="visible" data-name="yuenKwan_agent.Water">
 
 <polygon fill="none" stroke="black" points="216,-245.9 216,-319.5 270,-319.5 270,-245.9 216,-245.9"/>
 <text text-anchor="middle" x="242.6" y="-302.9" font-family="Times,serif" font-size="14.00">Water</text>
@@ -144,8 +144,8 @@
 <polyline fill="none" stroke="black" points="216,-270.7 269.19,-270.7"/>
 <text text-anchor="middle" x="242.6" y="-254.1" font-family="Times,serif" font-size="14.00"> </text>
 </g>
-<!-- blinddog_simple_reflex.Water&#45;&gt;blinddog_simple_reflex.Thing -->
-<g id="edge7" class="edge" data-name="blinddog_simple_reflex.Water-&gt;blinddog_simple_reflex.Thing">
+<!-- yuenKwan_agent.Water&#45;&gt;yuenKwan_agent.Thing -->
+<g id="edge7" class="edge" data-name="yuenKwan_agent.Water-&gt;yuenKwan_agent.Thing">
 
 <path fill="none" stroke="black" d="M235.39,-319.22C228.97,-347.27 218.94,-387.21 207,-421.2 203.96,-429.84 200.38,-438.85 196.68,-447.57"/>
 <polygon fill="none" stroke="black" points="193.51,-446.08 192.74,-456.64 199.93,-448.87 193.51,-446.08"/>
