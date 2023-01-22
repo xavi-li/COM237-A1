@@ -206,7 +206,7 @@ class Park(Environment):
                     print('{} drank {} at location: {}'
                           .format(str(agent)[1:-1], str(items[0])[1:-1], agent.location))
                     self.delete_thing(items[0]) #Delete it from the Park after.
-        # Req. 4 - change the state of Park afer action "bark" has occurred
+        # Req. 4 - change the state of Park after action "bark" has occurred
         elif action == "bark":
             items = self.list_things_at(agent.location, tclass=Person)
             if len(items) != 0:
